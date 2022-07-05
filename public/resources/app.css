@@ -1,0 +1,118 @@
+/* Fonts */
+body,
+.of-font {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 550;
+    color: black !important;
+}
+.of-font-header {
+    font-family: "Russo One", sans-serif;
+}
+/* !Fonts */
+
+/* Sticky Header + Footer */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    margin-top: 4rem;
+}
+footer {
+    margin-top: auto;
+}
+/* !Sticky Header + Footer */
+
+/* Brand Colors: Buttons */
+.of-btn-red {
+    color: white !important;
+    background-color: #f35252 !important;
+    border-color: #f35252 !important;
+}
+.of-btn-blue {
+    color: white !important;
+    background-color: #0560e8 !important;
+    border-color: #0560e8 !important;
+}
+.of-btn-black {
+    color: white !important;
+    background-color: #0a0a0a !important;
+    border-color: #0a0a0a !important;
+}
+/* !Brand Colors: Buttons */
+
+/* Brand Colors: Background */
+.of-bg-red {
+    background-color: #f35252 !important;
+}
+.of-bg-blue {
+    background-color: #0560e8 !important;
+}
+.of-bg-black {
+    background-color: #0a0a0a !important;
+}
+.of-bg-white {
+    background-color: white !important;
+}
+/* !Brand Colors: Background */
+
+/* Brand Colors: Texts and Links */
+.of-text-red {
+    color: #fc1d1d !important;
+}
+.of-link-blue {
+    color: #0560e8 !important;
+}
+.of-link-blue:hover {
+    color: #1e76fa !important;
+}
+.of-link-blue:active {
+    color: #0351c5 !important;
+}
+.of-link-silent-dark {
+    color: black;
+    text-decoration: none;
+}
+.of-link-silent-dark:hover {
+    color: black;
+    text-decoration: underline;
+}
+/* !Brand Colors: Texts and Links */
+
+/* Bootstrap Navbar Manipulators */
+#nav-top {
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+/* !Bootstrap Navbar Manipulators */
+
+/* Bottom Navbar */
+.of-nav {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0;
+}
+.of-nav li a {
+    text-decoration: none;
+    color: #585858;
+}
+.of-nav li a:hover {
+    color: black;
+}
+.of-nav-wrapper {
+    padding: 0.4rem 20%;
+}
+.of-bottom-drawer-wrapper {
+    margin: 1rem 15%;
+}
+.of-copy {
+    font-size: small;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+/* !Bottom Navbar */
