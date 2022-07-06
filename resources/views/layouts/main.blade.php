@@ -36,10 +36,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-4 me-auto mb-2 mb-lg-0">
                         <li class="nav-item px-lg-2">
-                            <a class="nav-link @yield('jelajahi-active')" href="#">Jelajahi</a>
+                            <a class="nav-link @yield('jelajahi-active')" href="{{ route('jelajahi') }}">Jelajahi</a>
                         </li>
                         <li class="nav-item px-lg-2">
                             <a class="nav-link @yield('mulaiproyekmu-active')" href="#">Mulai Proyekmu</a>
+                        </li>
+                        <li class="nav-item px-lg-2">
+                            <a class="nav-link @yield('ketentuan-active')" href="{{ route('ketentuan') }}">Ketentuan</a>
                         </li>
                     </ul>
                     <span class="d-flex">

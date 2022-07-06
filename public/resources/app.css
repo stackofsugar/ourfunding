@@ -142,3 +142,11 @@ footer {
     padding: 2rem 0;
 }
 /* !Hero Banner */
+
+/* Accordion */
+/* > Override < */
+.accordion-button:not(.collapsed) {
+    color: #920000 !important;
+    background-color: #ffe7e7 !important;
+}
+/* !Accordion */
