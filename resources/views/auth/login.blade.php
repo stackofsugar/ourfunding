@@ -26,7 +26,7 @@
                             <input type="checkbox" class="form-check-input" name="remember" id="remember">
                             <label for="remember" class="form-check-label">Ingat Saya</label>
                         </div>
-                        <button class="btn w-100 of-bg-red text-light">Kirim</button>
+                        <button class="btn w-100 btn-danger of-btn-red text-light">Kirim</button>
                     </div>
                     <div class="text-center">
                         Belum punya akun? <a class="link-danger" href="{{ route('register') }}">Daftar</a>

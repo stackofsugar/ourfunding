@@ -1,9 +1,5 @@
 @props(['kategori', 'namaProyek', 'namaKreator', 'deskripsi', 'terkumpul', 'hariTersisa', 'terkumpulPersen'])
 
-@php
-
-@endphp
-
 <div class="card of-card" style="width: 20rem">
     <div>
         <img class="img-fluid p-3 pb-1" src="/resources/images/proyek-unggulan.jpg">
