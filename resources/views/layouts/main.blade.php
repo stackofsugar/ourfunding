@@ -55,7 +55,7 @@
                             </div>
                             <a href="/logout" class="btn btn-sm btn-outline-danger">Keluar</a>
                         @else
-                            <a href="#" class="btn btn-sm btn-outline-dark">Masuk</a>
+                            <a href="{{ route('login') }}" class="btn btn-sm btn-outline-dark">Masuk</a>
                         @endauth
                     </span>
                 </div>
